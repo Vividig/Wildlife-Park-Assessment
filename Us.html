@@ -43,25 +43,34 @@
     body {
             display: grid;
             grid: 
+            " d   d   " 1em 
             " h   h   " 5em 
-            " n   n   " 1em 
-            " m   p   " 12em
+            " n   n   " 2em 
+            " m   p   " 37em
             " f   f   " 5em
-            / 10fr 1fr;
+            / 9fr 1fr;
 
-
+            background-color: rgb(201, 190, 149);
         }
+    
 
     Header {
         grid-area: h;
+        background-color: rgb(122, 141, 104);
+    }
+    nav {
+        grid-area: n;
+        background-color: rgb(201, 190, 149);
     }
 
     main {
         grid-area: m;
+        background-color: rgb(150, 124, 100);
     }
 
     footer {
         grid-area: f;
+        background-color: rgb(201, 190, 149);
     }
 
 </style>

@@ -17,8 +17,14 @@
     <a href="AmericaArea.html"> American Area </a>
     <a href="AfricanSavannah.html"> Meet the Stars of Our African Savannah </a>
     <a href="AfricaArea.html"> African Area </a>
-    <a href="AboutUs.html"> About Us </a>
+    
 </nav>
+
+<div class="heading">
+
+    <a href="AboutUs.html"> About Us </a>
+
+</div>
 
 <main>
     <h2>
@@ -38,21 +44,51 @@
         text-align: center;
         font-family: 'Pangolin';
         color: rgb(249, 248, 248);
+        padding-right: 10em;
     }
 
     body {
             display: grid;
             grid: 
-            " d   d   " 1em 
-            " h   h   " 5em 
-            " n   n   " 2em 
-            " m   p   " 37em
-            " f   f   " 5em
-            / 9fr 1fr;
+            " d  d  d   " 1em 
+            " a  h  h   " 5em 
+            " n  n  n   " 3em
+            " m  m  p   " 37em
+            " f  f  f   " 5em
+            / 2fr 8fr 1fr;
 
             background-color: rgb(201, 190, 149);
         }
+
+
+     a {
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    border: 1px ;
+    border-radius: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 0.7em;
+    text-align: center;
+    background-color: rgb(122, 141, 104);
+
+
+  }
+  .heading {
+    grid-area: a;
+    background-color: rgb(122, 141, 104);
+    float: left;
+    padding-top: 2em;
+    padding-left: 3em;
     
+  }
+  .heading a {
+    grid-area: a;
+    background-color: rgb(87, 95, 79);
+  }
+
 
     Header {
         grid-area: h;
@@ -61,6 +97,7 @@
     nav {
         grid-area: n;
         background-color: rgb(201, 190, 149);
+        margin-top: 1em;
     }
 
     main {

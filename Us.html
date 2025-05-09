@@ -1,7 +1,7 @@
 <!doctype html>
 
 <link href='https://fonts.googleapis.com/css?family=Pangolin' rel='stylesheet'>
-
+<body>
 <header>
     <h1>
         Wildlife Park
@@ -39,4 +39,30 @@
         font-family: 'Pangolin';
         color: rgb(249, 248, 248);
     }
+
+    body {
+            display: grid;
+            grid: 
+            " h   h   " 5em 
+            " n   n   " 1em 
+            " m   p   " 12em
+            " f   f   " 5em
+            / 10fr 1fr;
+
+
+        }
+
+    Header {
+        grid-area: h;
+    }
+
+    main {
+        grid-area: m;
+    }
+
+    footer {
+        grid-area: f;
+    }
+
 </style>
+</body>

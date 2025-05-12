@@ -1,0 +1,180 @@
+<!doctype html>
+
+<link href='https://fonts.googleapis.com/css?family=Pangolin' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Happy Monkey' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+
+<body>
+<header>
+    <h1>
+        Wildlife Park
+    </h1>
+</header>
+
+
+<nav>
+    <a href="Us.html"> Us </a>
+    <a href="ArcticArea.html"> Arctic Area </a>
+    <a href="AmericaArea.html"> American Area </a>
+    <a href="AfricaArea.html"> African Area </a>
+    
+</nav>
+
+<div class="heading">
+
+    <a href="AboutUs.html"> About Us </a>
+
+</div>
+
+<div class="block1"></div>
+<div class="block2"></div>
+
+<main>
+    <h2>
+        Explore the Enchanting Arctic Tundra
+    </h2>
+    <p>
+        Embrace the chill and journey to the frozen wonders of the Arctic, where you'll encounter some of the world's most remarkable cold-weather inhabitants. Our Arctic area features the awe-inspiring polar bear, the cunning arctic fox, and the charming fur seal, each perfectly adapted to life in the icy tundra.
+    </p>
+    <p>
+        Witness these magnificent animals in action, as you learn about their unique adaptations, survival strategies, and the challenges they face in a rapidly changing environment. Take part in our interactive presentations, meet our dedicated team of Arctic experts, and gain a deeper appreciation for the incredible creatures that call the Arctic home.
+    </p>
+
+    <h3>
+        Polar Bears:
+    </h3>
+
+    <p>
+        Introducing our majestic polar bear duo, Aurora and Frost. These awe-inspiring creatures are the largest land carnivores on Earth and are perfectly adapted to life in the harsh Arctic environment. Watch as Aurora and Frost demonstrate their incredible swimming and hunting skills in our expansive Arctic habitat. Learn about their unique adaptations, their critical role in the Arctic ecosystem, and the urgent conservation efforts in place to address the threats they face due to climate change and habitat loss.
+    </p>
+   
+</main> 
+
+
+
+<style>
+    h1 {
+        text-align: center;
+        font-family: 'Pangolin';
+        color: rgb(249, 248, 248);
+        padding-right: 15em;
+        
+        font-weight: bold;
+    }
+
+    h2 {
+        text-align: center;
+        color: rgb(73, 62, 51);
+        font-family: 'Happy Monkey';
+        font-weight: bold;
+        font-size: 2em;
+    }
+
+    h3 {
+        color: rgb(73, 62, 51);
+        font-family: 'Happy Monkey';
+        font-weight: bold;
+        margin-left: 1em;
+        margin-top: 5em;
+        font-size: 2em;
+    }
+
+    p {
+        text-align: center;
+        color: rgb(249, 248, 248);
+        font-family: 'Nunito';
+        font-weight: bold;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    body {
+            display: grid;
+            grid: 
+            " d  d  d   " 1em 
+            " a  h  h   " 5em 
+            " n  q  q   " 3em
+            " m  m  m   " 70.5em
+            " f  f  f   " 5em
+            / 4fr 4fr 2.9fr;
+
+            background-color: rgb(201, 190, 149);
+        }
+
+
+     a {
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    border: 1px ;
+    border-radius: 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-left: 1em;
+    text-align: center;
+    background-color: rgb(122, 141, 104);
+    font-family: 'Happy Monkey';
+
+  }
+  a:hover {
+    color: white;
+    background: rgb(87, 95, 79);
+  }
+
+
+  .heading {
+    grid-area: a;
+    background-color: rgb(122, 141, 104);
+    float: left;
+    padding-top: 2em;
+    padding-left: 3em;
+    
+  }
+  .heading a {
+    grid-area: a;
+    background-color: rgb(87, 95, 79);
+  }
+  
+  .heading a:hover {
+    grid-area: a;
+    background-color: rgb(122, 141, 104);
+  }
+
+  .block1 {
+    grid-area: d;
+    background-color: rgb(87, 95, 79);
+  }
+
+  .block2 {
+    grid-area: q;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    background-color: rgb(87, 95, 79);
+  }
+
+
+
+  Header {
+        grid-area: h;
+        background-color: rgb(122, 141, 104);
+    }
+    nav {
+        grid-area: n;
+        background-color: rgb(201, 190, 149);
+        margin-top: 1em;
+    }
+
+    main {
+        grid-area: m;
+        background-color: rgb(150, 124, 100);
+    }
+
+    footer {
+        grid-area: f;
+        background-color: rgb(201, 190, 149);
+    }
+</style>
+
+</body>

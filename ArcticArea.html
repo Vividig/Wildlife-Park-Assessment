@@ -50,6 +50,11 @@
     </p>
    
 </main> 
+<div class="backmain"> </div>
+  <div class="back1"></div>
+    <div class="back2"></div>
+    <div class="back3"></div>
+   
 
 <div class="ArcticFox1pic">
         <figure>
@@ -58,6 +63,7 @@
         </figure>
     </div>
 
+</div>
 
     <div class="ArcticFox2pic">
         <figure>
@@ -74,7 +80,7 @@
         </figure>
     </div>
 
-    
+  
 
 <style>
     h1 {
@@ -149,7 +155,6 @@
   .ArcticFox1pic {
     grid-area: m;
     margin-top: 33em;
-    
   }
 
   .ArcticFox2pic {
@@ -164,11 +169,60 @@
     margin-left: 60em;
   }
 
+  .backmain {
+    grid-area: m;
+    margin-top: 32em;
+    margin-bottom: 17em;
+    background-color: rgb(87, 95, 79);
+ }
+ .back1 {
+    grid-area: m;
+    margin-top: 32.5em;
+    margin-left: 0.5em;
+    margin-right: 61.5em;
+    margin-bottom: 18em;
+    background-color: rgb(122, 141, 104);
+    border-radius: 0.5em;
+ }
+ .back2 {
+
+    grid-area: m;
+    margin-top: 32.5em;
+    margin-left: 30.5em;
+    margin-right: 31.5em;
+    margin-bottom: 18em;
+    background-color: rgb(122, 141, 104);
+    border-radius: 0.5em;
+ }
+ .back3 {
+
+    grid-area: m;
+    margin-top: 32.5em;
+    margin-left: 60.5em;
+    margin-right: 1.5em;
+    margin-bottom: 18em;
+    background-color: rgb(122, 141, 104);
+    border-radius: 0.5em;
+ }
+
   img {
     display: block;
   width: 25em;
-  border-radius: 0.3em;
+  border-radius: 0.2em;
   }
+
+  img:hover {
+    transform: scale(1.1);
+
+  }
+
+  figcaption {
+  color: white;
+  font-family: 'Nunito';
+  padding: 2px;
+  margin-top: 0.7em;
+  font-size: 0.8em;
+}
 
   .heading {
     grid-area: a;
